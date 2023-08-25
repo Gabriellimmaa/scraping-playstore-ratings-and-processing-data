@@ -1,0 +1,5 @@
+google-play-scraper==1.2.4
+pandas==1.4.2
+transformers==4.32.0
+gensim==4.3.2
+nltk==3.8.1
