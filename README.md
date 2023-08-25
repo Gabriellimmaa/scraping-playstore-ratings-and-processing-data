@@ -11,13 +11,14 @@ Based on this data, we can have an assessment with a certain precision and do a 
 # How to run the code
 
 1. Clone this repository on your computer:
-
-   git clone https://github.com/Gabriellimmaa/scraping-playstore-ratings-and-processing-data.git
+     
+        git clone https://github.com/Gabriellimmaa/scraping-playstore-ratings-and-processing-data.git
+      
 2. Make sure you have all the necessary libraries installed.
-
-   pip install -r requirements.txt
-3. In the `Main.py` file you will find some configurations to be done
-
+     
+        pip install -r requirements.txt
+      
+3. In the `main.py` file you will find some configurations to be done
    ```
    scraper = Scraping(
        playstore_config=PlayStore(
@@ -54,10 +55,9 @@ Based on this data, we can have an assessment with a certain precision and do a 
 | num_topics          | you are telling the model how many topics it should try to discover from your data                                                       |
 
 4. Run `main.py`:
-
-   `python Main.py`
-
-# Autores
-
-| [`<img src="https://github.com/Gabriellimmaa.png" width=115><br>``<sub>`Gabriel Lima `</sub>`](https://github.com/Gabriellimmaa) |
-| :-------------------------------------------------------------------------------------------------------------------------------: |
+     
+        python main.py
+      
+# Author
+| [<img src="https://github.com/Gabriellimmaa.png" width=115><br><sub>Gabriel Lima</sub>](https://github.com/Gabriellimmaa) |
+| :---: 
